@@ -1,0 +1,298 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+- intent: unseen_on
+  examples: |
+    - ahdwhdhfkgh
+    - skdsjdlksjdlkjsdlkj
+    - asasasasas
+    - hgfahha
+    - mfhjuwgfdgu
+    - WHFKWAHEFWAFHA
+    - order food
+    - 2021
+    - 2022
+    - 2020
+    - 11
+    - 111111111111
+    - 1134355
+    - 143
+    - long
+    - weekend
+    - type
+- intent: previlage_leave_main
+  examples: |
+    - What is Privilege Leave?
+    - previlage
+    - previlage leave
+    - PL
+    - P L
+    - what is pl
+    - what's pl
+    - whats PL
+    - what is previlege leave
+    - what previlige leave
+    - can i know about previlege leave
+    - tell about previlege leave
+    - say about previlege leave
+- intent: Holiday_List_2022
+  examples: |
+    - In 2022, how many office,business,professional,government,workplace holidays would there be?
+    - business holidays in year 2022
+    - In 2022 calander holidays
+    - 2022 holiday calender
+    - Holiday calendar
+    - tell me schedule,records,details,period,duration for the 2022 office breaks
+    - What are the month,days,date,timeline,seasons for the 2022 work vacation
+    - can i know schedule,records,details,period,duration for the 2022 office holidays,hols,festivals,celebrations
+    - monthly holidays in 2022
+    - year 2022 holidays
+    - holidays,hols,vacations in 2022
+    - office holidays 2022
+    - i want to see holidays in 2022
+    - 2022 all holidays can i have a view
+    - show me all holidays in this year
+    - can i know 2022 holidays,hols
+    - working holidays in 2022
+    - 2022 vacations and holidays
+    - 2022 leaves
+    - holidays list of this year
+    - holiday,hols list
+    - vacations list
+    - ofc hols
+- intent: January_holidays_2022
+  examples: |
+    - Provide the holidays,hols in January 2022
+    - Where are the vacations in January 2022
+    - Name the celebrations in 1st month 2022
+    - Know about the festivals in Jan 2022
+    - can i know the holidays in first month 2022
+    - january festivals
+    - january leaves
+    - jan 2022 vacations
+    - 1st month leaves
+    - 1month vacations
+- intent: February_holidays_2022
+  examples: |
+    - Provide the holidays,hols in February 2022
+    - Where are the vacations in February 2022
+    - Name the celebrations in 2nd month 2022
+    - Know about the festivals in feb 2022
+    - can i know the holidays in second month 2022
+    - February festivals
+    - February leaves
+    - feb 2022 vacations
+    - second month holidays and leaves
+    - 2nd month leaves
+    - 2month vacations
+- intent: march_holidays_2022
+  examples: |
+    - Provide the holidays in march 2022
+    - Where are the vacations in march 2022
+    - Name the celebrations in 3rd month 2022
+    - Know about the festivals in mar 2022
+    - can i know the holidays in third month 2022
+    - march festivals
+    - mar leaves
+    - mar 2022 vacations
+    - third month holidays and leaves
+    - 3rd month leaves
+    - 3month vacations
+- intent: april_holidays_2022
+  examples: |
+    - Provide the holidays,hols in april 2022
+    - Where are the vacations in april 2022
+    - Name the celebrations in 4th month 2022
+    - Know about the festivals in apr 2022
+    - can i know the holidays in fourth month 2022
+    - april festivals
+    - apr leaves
+    - apr 2022 vacations
+    - fourth month holidays and leaves
+    - 4th month leaves
+    - 4month vacations
+- intent: may_holidays_2022
+  examples: |
+    - Provide the holidays,hols in may 2022
+    - Where are the vacations in may 2022
+    - Name the celebrations in 5th month 2022
+    - Know about the festivals in may 2022
+    - can i know the holidays in fifth month 2022
+    - may festivals
+    - may leaves
+    - may 2022 vacations
+    - fifth month holidays and leaves
+    - 5th month leaves
+    - 5month vacations
+- intent: june_holidays_2022
+  examples: |
+    - Provide the holidays,hols in june 2022
+    - Where are the vacations in june 2022
+    - Name the celebrations in 6th month 2022
+    - Know about the festivals in jun 2022
+    - can i know the holidays in sixth month 2022
+    - june festivals
+    - jun leaves
+    - jun 2022 vacations
+    - sixth month holidays and leaves
+    - 6th month leaves
+    - 6month vacations
+- intent: july_holidays_2022
+  examples: |
+    - Provide the holidays,hols in july 2022
+    - Where are the vacations in july 2022
+    - Name the celebrations in 7th month 2022
+    - Know about the festivals in jul 2022
+    - can i know the holidays in seventh month 2022
+    - july festivals
+    - jul leaves
+    - jul 2022 vacations
+    - seventh month holidays and
+    - 7th month leaves
+    - 7month vacations
+    - july leave i want to have a look
+- intent: august_holidays_2022
+  examples: |
+    - Provide the holidays,hols in august 2022
+    - Where are the vacations in august 2022
+    - Name the celebrations in 8th month 2022
+    - Know about the festivals in aug 2022
+    - can i know the holidays in eighth month 2022
+    - august festivals
+    - aug leaves
+    - aug 2022 vacations
+    - eighth month holidays and leaves
+    - 8th month leaves
+    - 8month vacations
+- intent: september_holidays_2022
+  examples: |
+    - Provide the holidays,hols in september 2022
+    - Where are the vacations in september 2022
+    - Name the celebrations in 9th month 2022
+    - Know about the festivals in sep 2022
+    - can i know the holidays in ninth month 2022
+    - september festivals
+    - sep leaves
+    - sep 2022 vacations
+    - ninth month holidays and leaves
+    - nineth month leaves
+    - 9th month leaves
+    - 9month vacations
+- intent: october_holidays_2022
+  examples: |
+    - Provide the holidays,hols in october 2022
+    - Where are the vacations in october 2022
+    - Name the celebrations in 10th month 2022
+    - Know about the festivals in oct 2022
+    - can i know the holidays in tenth month 2022
+    - october festivals
+    - oct leaves
+    - oct 2022 vacations
+    - tenth month holidays and leaves
+    - tenth month vacations
+    - 10th month leaves
+    - 10month vacations
+- intent: november_holidays_2022
+  examples: |
+    - Provide the holidays,hols in november 2022
+    - Where are the vacations in november 2022
+    - Name the celebrations in 11th month 2022
+    - Know about the festivals in nov 2022
+    - can i know the holidays in eleventh month 2022
+    - november festivals
+    - nov leaves
+    - nov 2022 vacations
+    - eleventh month holidays and leaves
+    - eleventh month vacations
+    - 11th month leaves
+    - 11month vacations
+- intent: december_holidays_2022
+  examples: |
+    - Provide the holidays,hols in december 2022
+    - Where are the vacations in december 2022
+    - Name the celebrations in 12th month 2022
+    - Know about the festivals in dec 2022
+    - can i know the holidays in twelfth month 2022
+    - december festivals
+    - dec leaves
+    - dec 2022 vacations
+    - twelfth month holidays and leaves
+    - twelfth month vacations
+    - 12th month leaves
+    - twelveth month vacations
+    - twelth month vacations
+    - 12month vacations
+- intent: Weekend_holidays_list_2022
+  examples: |
+    - What are the festivals,holidays,festivities,celebrations,vacations,leaves,hols in 2022 that fall on weekends?
+    - weekend holidays in 2022
+    - saturday and sunday holidays in this year 2022
+    - week end leaves
+    - holidays that fall on weekends
+    - sat and sun holidays in this year 2022
+    - weekend holidays in this year 2022
+    - wwekend leaves
+    - week end holidays
+- intent: longWeekend_holidays_list_2022
+  examples: |
+    - long weekend holidays in 2022
+    - long week end leaves
+    - holidays that fall on long,lengthy,extended,big weekends
+    - long weekend
+    - long week end holidays
+- intent: Different_holidays_regional_offices
+  examples: |
+    - Why do regional offices’ holidays differ?
+    - regional office vactions different
+    - why regional office hols change
+    - Do regional offices have all holidays
+    - Why are the holidays at field offices distinct?
+- intent: Compensation_work_day
+  examples: |
+    - On a holiday calendar, what is a 'compensation work days?'
+    - On a holiday calendar, what is a compensation work days,recoup work days?
+    - Across a vacation calendar, what is a recompense work days,replace work days
+    - Inside a vacation calendar, what is a recoup business days,replace business days,compensation business days?
+    - what is a compensation work day
+    - compensation work day
+- intent: Corporate_office_holidays
+  examples: |
+    - Would the corporate office get all listed holidays
+    - Would the main,central office get all mentioned holidays
+    - Does headquarters office get all listed vacations,festivals
+    - corporate office holidays
+    - corporate ofc all holidays
+- intent: Long_weekend_holidaylist_2022
+  examples: |
+    - What is the list of long weekend holidays of 2022
+    - holidays on long weekends
+    - long weekend holidays in 2022
+    - holidays on monday and Tuesday
+    - holidays on mon and tue
+    - holidays on thursday and Friday
+    - holidays on thu and fri
+    - mon and tue offc holidays
+    - thu and fri office holidays
+    - office holidays on long weekends
+    - long weekend office holiday 2022
+    - 2022 holidays  on long  weekend
+    - govt leave on long weekend
+    - long weekend festivals on 2022
+    - festivals on long weekend
+    - festival holidays on Monday
+    - festival holidays on Tuesday
+    - festival holidays on Thursday
+    - festival holidays on Friday
+    - 2022 festival holidays on mon and tue
+    - 2022 festival holidays on thu and fri
+    - 2022 festival holidays on week begining
+    - 2022 festival holidays on week ending
+    - Long weekend holiday list 2022
+    - festival on long weekend 2022

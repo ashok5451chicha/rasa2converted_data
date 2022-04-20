@@ -1,0 +1,180 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- Holiday_List_2022
+- January_holidays_2022
+- February_holidays_2022
+- march_holidays_2022
+- april_holidays_2022
+- may_holidays_2022
+- june_holidays_2022
+- july_holidays_2022
+- august_holidays_2022
+- september_holidays_2022
+- october_holidays_2022
+- november_holidays_2022
+- december_holidays_2022
+- Weekend_holidays_list_2022
+- longWeekend_holidays_list_2022
+- Different_holidays_regional_offices
+- Compensation_work_day
+- Corporate_office_holidays
+- unseen_on
+- previlage_leave_main
+- Long_weekend_holidaylist_2022
+responses:
+  utter_greet:
+  - text: "Hi there!\n \nWelcome to *Arvind Fashion*.\nType your query to get started.\n \n*Eg:* How many holidays in 2022?
+        \nWhat the holidays in February?
+        \nDo corporate offices get holidays?
+        \nList the holidays in April 2022?
+        \nWhy do regional office holidays differ?"
+  utter_Holiday_List_2022:
+  - text: "There are *32 holidays in 2022* including ones falling on a Saturday or Sunday.\
+      \ They are as follows:\n \n • *14th January 2022*- Friday - Pongal, Makar Sankranti\
+      \ \n • *15th January 2022*- Saturday- Thiruvalluvar Day, Maga Bihu, UttarayanaPunyakala,\
+      \ Makara Sankranti Festival \n • *26th January 2022*- Wednesday- Republic Day  \n\
+      \ • *5th February 2022*- Saturday- Saraswati Puja _(Sree Panchami)_ \n • *1st March 2022*-\
+      \ Tuesday - Mahashivratri \n • *17th March 2022*-Thursday- HolikaDahan \n • *18th\
+      \ March 2022*- Friday- Dhulandi, Holi 2nd Day Dhuleti, Holi Parewa, Doijatra\
+      \ \n • *2nd April 2022*- Saturday- Telugu New Year’s day, Chetichand, Ugadi Festival, \
+      \ GudhiPadwa \n • *10th April 2022*- Sunday- Ramnavami \n • *14th April 2022*- Thursday-\
+      \ Maundy Thursday/  Dr. B. R Ambedkar Birthday / Mahaveer Jayanthi /  Tamil\
+      \ New Year’s Day, Bohag Bihu \n • *15th April 2022*- Friday- Good Friday, Vishu,\
+      \ Bengali New Year’s Day _(Nababarsha)_, Bohag Bihu \n • *1st May 2022*- Sunday-\
+      \ May Day \n • *2nd May 2022*- Monday- Id-ul-Fitr_(Ramzan)_ \n • *3rd May 2022*- Tuesday-\
+      \ Ramzan_(Id –Ul –Fitr)_, Parshuram Jayanti, Basava Jayanthi, Akshaya Tritiya\
+      \ \n • *2nd June 2022*- Thursday- Maharana Pratap Jayanti, Telangana Formation\
+      \ day \n • *12th August 2022*- Friday- Raksha Bandhan \n • *15th August 2022*- Monday-\
+      \ Independence Day \n • *18th August 2022*- Thursday- Sreekrishna Jayanthi \n\
+      \ • *19th August 2022*- Friday- Krishna Jayanthi \n • *31st August 2022*- Wednesday-\
+      \ VinayakarChathurthi, Samvatsari _(Chaturthi Paksha)_ \n • *7th September 2022*-\
+      \ Wednesday- First Onam \n • *8th September 2022*- Thursday- Thiruvonam \n • *9th\
+      \ September 2022*- Friday- Third Onam \n • *2nd October 2022*- Sunday- Gandhi Jayanti\
+      \ \n • *3rd October 2022*- Monday- Durga astami, Durga puja astami \n • *4th October\
+      \ 2022*- Tuesday- Ayutha Pooja, Mahanavami, Durga puja Nabami \n • *5th October\
+      \ 2022*- Wednesday- Vijaya Dashami, Dussehra, Durga puja Dasami, BijoyaDashomi&Janmostav\
+      \ of SrimantaSankardev \n • *24th October 2022*- Monday- Deepavali, Kali Puja,\
+      \ Naraka Chaturdashi, Diwali Amavasya _(Lakshmipujan)_ \n • *1st November 2022*-\
+      \ Tuesday- Kannada Rajyothsava, Puducherry Liberation day, AP Formation Day\
+      \ \n • *19th December 2022*- Monday- Goa Liberation Day \n • *25th December 2022*-\
+      \ Sunday- Christmas \n • *31st December 2022*- Saturday- New Year’s Eve \n \nWhat\
+      \ else would you like to know? Please type your query."
+  utter_previlage_leave_main:
+  - text: "18 days of Privilege Leave are granted per year for personal commitments \n \nWhat else would you like to know? Please type your query."
+  utter_January_holidays_2022:
+  - text: "*Holidays in January are:*\n \n• *14th January 2022*- Friday - Pongal, Makar Sankranti\
+      \ \n• *15th January 2022*- Saturday - Thiruvalluvar Day, Maga Bihu, UttarayanaPunyakala,\
+      \ Makara Sankranti Festival \n• *26th January 2022*- Wednesday - Republic Day \n \nWhat\
+      \ else would you like to know? Please type your query."
+  utter_February_holidays_2022:
+  - text: "*Holidays in February are:* \n• *5th February*- Saturday - Saraswati Puja _(Sree\
+      \ Panchami)_ \n \nWhat else would you like to know? Please type your query."
+  utter_march_holidays_2022:
+  - text: "*Holidays in March are:* \n• Tuesday- *1st March*- Mahashivratri \n• Thursday-\
+      \ *17th March*- HolikaDahan \n• *18th March 2022*- Friday - Dhulandi, Holi 2nd Day Dhuleti,\
+      \ Holi Parewa, Doijatra \n \nWhat else would you like to know? Please type your\
+      \ query."
+  utter_april_holidays_2022:
+  - text: "*Holidays in April are:*\n \n• *2nd April 2022*- Saturday - Telugu New Year’s day,\
+      \ Chetichand, Ugadi Festival,  GudhiPadwa \n• *10th April 2022*- Sunday - Ramnavami\
+      \ \n• *14th April 2022*- Thursday - Maundy Thursday/  Dr. B. R Ambedkar Birthday / Mahaveer\
+      \ Jayanthi /  Tamil New Year’s Day, Bohag Bihu \n• *15th April 2022*- Friday - Good\
+      \ Friday, Vishu, Bengali New Year’s Day _(Nababarsha)_, Bohag Bihu \n \nWhat else\
+      \ would you like to know? Please type your query."
+  utter_may_holidays_2022:
+  - text: "*Holidays in May are:*\n \n•  *1st May 2022*- Sunday - May Day \n• Monday- *2nd May*- Id-ul-Fitr_(Ramzan)_\
+      \ \n• *3rd May 2022*- Tuesday - Ramzan_(Id –Ul –Fitr)_, Parshuram Jayanti, Basava Jayanthi,\
+      \ Akshaya Tritiya \n \nWhat else would you like to know? Please type your query."
+  utter_june_holidays_2022:
+  - text: "*Holidays in June are:*\n \n•  *2nd June 2022*- Thursday -- Maharana Pratap Jayanti,\
+      \ Telangana Formation day \n \nWhat else would you like to know? Please type\
+      \ your query."
+  utter_july_holidays_2022:
+  - text: "There are no holidays in the *month of July* \n \nWhat else would you like\
+      \ to know? Please type your query."
+  utter_august_holidays_2022:
+  - text: "*Holidays in August are:*\n \n• *12th August 2022*- Friday - Raksha Bandhan \n•
+      \ *15th August 2022*- Monday - Independence Day \n• *18th August 2022*- Thursday - Sreekrishna Jayanthi\
+      \ \n• *19th August 2022*- Friday - Krishna Jayanthi \n• *31st August 2022*- Wednesday - VinayakarChathurthi,\
+      \ Samvatsari _(Chaturthi Paksha)_ \n \nWhat else would you like to know? Please\
+      \ type your query."
+  utter_september_holidays_2022:
+  - text: "*Holidays in September are:*\n \n•  *7th September 2022*- Wednesday - First Onam \n•\
+      \  *8th September 2022*- Thursday - Thiruvonam \n• *9th September 2022*- Friday - Third Onam\
+      \ \n \nWhat else would you like to know? Please type your query."
+  utter_october_holidays_2022:
+  - text: "*Holidays in October are:*\n \n•  *2nd October 2022*- Sunday - Gandhi Jayanti \n•\
+      \ *3rd October 2022*- Monday- Durga astami, Durga puja astami \n• *4th October 2022*- Tuesday - Ayutha\
+      \ Pooja, Mahanavami, Durga puja Nabami \n• *5th October 2022*- Wednesday - Vijaya Dashami,\
+      \ Dussehra, Durga puja Dasami, BijoyaDashomi&Janmostav of SrimantaSankardev\
+      \ \n•  *24th October 2022*- Monday - Deepavali, Kali Puja, Naraka Chaturdashi, Diwali\
+      \ Amavasya _(Lakshmipujan)_\n \nWhat else would you like to know? Please type\
+      \ your query."
+  utter_november_holidays_2022:
+  - text: "*Holidays in November are:*\n \n•  *1st November 2022*- Tuesday - Kannada Rajyothsava,\
+      \ Puducherry Liberation day, AP Formation Day \n \nWhat else would you like\
+      \ to know? Please type your query."
+  utter_december_holidays_2022:
+  - text: "*Holidays in December are:*\n \n• *19th December 2022*- Monday - Goa Liberation Day\
+      \ \n• *25th December 2022*- Sunday - Christmas \n•  *31st December 2022*- Saturday - New Year’s\
+      \ Eve \n \nWhat else would you like to know? Please type your query."
+  utter_weekend_holidays_2022:
+  - text: "*8 holidays coincide with a weekend in 2022*. They are:\n \n• *15th\
+      \ January 2022*- Saturday - Thiruvalluvar Day, Maga Bihu, UttarayanaPunyakala, Makara Sankranti Festival\
+      \ \n• *5th February 2022*- Saturday - Saraswati Puja _(Sree Panchami)_ \n• *2nd\
+      \ April 2022*- Saturday - Telugu New Year's day, Chetichand, Ugadi Festival,  GudhiPadwa \n•\
+      \ *10th April 2022*- Sunday - Ramnavami \n• *1st May 2022*- Sunday -May Day \n• *2nd\
+      \ October 2022*- Sunday -  Gandhi Jayanti \n• *25th December 2022*- Sunday - Christmas \n• \
+      \ *31st December 2022*- Saturday - New Year’s Eve \n \nWhat else would you like to know? Please\
+      \ type your query."
+  utter_longweekend_holidays_2022:
+  - text: "A *Long Weekend* is when two calendar holidays *fall back-to-back during the\
+      \ week*, or with a *weekend in the middle* \n \nWhat else would you like to know?\
+      \ Please type your query."
+  utter_Different_holidays_regional_offices:
+  - text: "The holiday calendar identifies *important holidays and observances across\
+      \ the country*, hence different regions may receive different holidays as priority\
+      \ \n \nWhat else would you like to know? Please type your query."
+  utter_Compensation_work_day:
+  - text: "A *Compensating Work Day* uses a *Saturday or a week off* as a work day to\
+      \ compensate for Long Weekend Holidays \n \nWhat else would you like to know?\
+      \ Please type your query."
+  utter_Corporate_office_holidays:
+  - text: "Just like regional offices, the corporate office too is allotted *certain\
+      \ observances as holidays* through 2022 \n \nWhat else would you like to know?\
+      \ Please type your query."
+  utter_default:
+  - text: "Sorry! We're unable to understand your input. \nPlease type relevant questions.\n \n*Eg:* How many holidays in 2022?
+        \nWhat the holidays in February?
+        \nDo corporate offices get holidays?
+        \nList the holidays in April 2022?
+        \nWhy do regional office holidays differ?"
+  utter_unseen:
+  - text: "Sorry! We're unable to understand your input. \nPlease type relevant questions.\n \nEg:* How many holidays in 2022?
+        \nWhat the holidays in February?
+        \nDo corporate offices get holidays?
+        \nList the holidays in April 2022?
+        \nWhy do regional office holidays differ?"
+  utter_Long_weekend_holidaylist_2022:
+  - text: "There are *16 holidays in 2022* that fall on week days creating a long\n \n• *14th January 2022*- Friday - Pongal, Makar Sankranti 
+    \n• *17th March 2022*- Thursday-  HolikaDahan 
+    \n• *18th March 2022*- Friday - Dhulandi, Holi 2nd Day Dhuleti, Holi Parewa, Doijatra 
+    \n• *14th April 2022*- Thursday- Maundy Thursday/  Dr. B. R Ambedkar Birthday / Mahaveer Jayanthi 
+    /  Tamil New Year’s Day, Bohag Bihu 
+    \n• *15th April 2022*- Friday - Good Friday, Vishu, Bengali New Year’s Day _(Nababarsha)_, Bohag Bihu 
+    \n• *2nd May 2022*- Monday - Id-ul-Fitr _(Ramzan)_ 
+    \n• *3rd May 2022*- Tuesday - Ramzan _(Id –Ul –Fitr)_, Parshuram Jayanti, Basava Jayanthi, Akshaya 
+    Tritiya 
+    \n• *12th August 2022*- Friday - Raksha Bandhan 
+    \n• *15th August 2022*- Monday - Independence Day 
+    \n• *18th August 2022*- Thursday - Sreekrishna Jayanthi 
+    \n• *19th August 2022*- Friday - Krishna Jayanthi\n \nWhat else would you like to know?\
+      \ Please type your query."
+actions:
+- action_leave_policy

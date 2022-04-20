@@ -1,0 +1,90 @@
+version: "2.0"
+stories:
+- story: greet story
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: unseen one
+  steps:
+  - intent: unseen_on
+  - action: utter_unseen
+- story: holiday list
+  steps:
+  - intent: Holiday_List_2022
+  - action: utter_Holiday_List_2022
+- story: January holidays2022
+  steps:
+  - intent: January_holidays_2022
+  - action: utter_January_holidays_2022
+- story: february holidays2022
+  steps:
+  - intent: February_holidays_2022
+  - action: utter_February_holidays_2022
+- story: march holidays2022
+  steps:
+  - intent: march_holidays_2022
+  - action: utter_march_holidays_2022
+- story: april holidays2022
+  steps:
+  - intent: april_holidays_2022
+  - action: utter_april_holidays_2022
+- story: may holidays2022
+  steps:
+  - intent: may_holidays_2022
+  - action: utter_may_holidays_2022
+- story: june holidays2022
+  steps:
+  - intent: june_holidays_2022
+  - action: utter_june_holidays_2022
+- story: july holidays2022
+  steps:
+  - intent: july_holidays_2022
+  - action: utter_july_holidays_2022
+- story: august holidays2022
+  steps:
+  - intent: august_holidays_2022
+  - action: utter_august_holidays_2022
+- story: september holidays2022
+  steps:
+  - intent: september_holidays_2022
+  - action: utter_september_holidays_2022
+- story: october holidays2022
+  steps:
+  - intent: october_holidays_2022
+  - action: utter_october_holidays_2022
+- story: november holidays2022
+  steps:
+  - intent: november_holidays_2022
+  - action: utter_november_holidays_2022
+- story: december holidays2022
+  steps:
+  - intent: december_holidays_2022
+  - action: utter_december_holidays_2022
+- story: weekend holidays2022
+  steps:
+  - intent: Weekend_holidays_list_2022
+  - action: utter_weekend_holidays_2022
+- story: longweekend holidays2022
+  steps:
+  - intent: longWeekend_holidays_list_2022
+  - action: utter_longweekend_holidays_2022
+- story: Different holidays regional offices
+  steps:
+  - intent: Different_holidays_regional_offices
+  - action: utter_Different_holidays_regional_offices
+- story: Compensation work day
+  steps:
+  - intent: Compensation_work_day
+  - action: utter_Compensation_work_day
+- story: Corporate office holidays
+  steps:
+  - intent: Corporate_office_holidays
+  - action: utter_Corporate_office_holidays
+- story: long holiday story
+  steps:
+  - intent: Long_weekend_holidaylist_2022
+  - action: utter_Long_weekend_holidaylist_2022
+- story: previlage main story
+  steps:
+  - intent: previlage_leave_main
+  - action: action_leave_policy
